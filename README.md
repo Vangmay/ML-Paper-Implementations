@@ -1,3 +1,13 @@
+## About
+
+This repository contains a list of papers and my implementations of them in the field of AI (Mainly Language Modelling and Sequences Modelling) so that I can learn more about the corrent SoTA.
+
+I will try to release an accompanying blog with each implement and provide my own explanations of each technique/architecture
+
+The implementations will use PyTorch because it enables me to spend less time on setting up BackPropagation and get directly to replicating the paper.
+
+The list of papers as of now I taken from [this repository](https://github.com/adam-maj/deep-learning) however, It will keep changing over time as new papers come along.
+
 ## Papers
 
 **Deep Neural Networks**
