@@ -1,0 +1,15 @@
+[project]
+name = "attention-is-all-you-need"
+version = "0.1.0"
+description = "A from-scratch PyTorch implementation of the Transformer from 'Attention Is All You Need', trained on Multi30K (EN->DE)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "datasets>=2.18",
+    "tokenizers>=0.15",
+    "tiktoken>=0.6",
+]
+
+[tool.uv]
+package = false
