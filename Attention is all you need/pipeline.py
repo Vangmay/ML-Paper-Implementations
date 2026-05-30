@@ -251,7 +251,7 @@ def make_tgt_mask(tgt, pad_idx=0):
     return pad_mask & causal_mask  # (batch, 1, seq_len, seq_len)
 
 src_vocab_size=tokenizer_en.get_vocab_size()
-    tgt_vocab_size=tokenizer_de.get_vocab_size()
+tgt_vocab_size=tokenizer_de.get_vocab_size()
 
 model = Transformer(
     src_vocab_size=tokenizer_en.get_vocab_size(),
